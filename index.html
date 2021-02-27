@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="images/tablogo.png" id="tablogo"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://css.gg/css?=|browser" rel="stylesheet">
+    <link href='https://css.gg/code-slash.css' rel='stylesheet'>
+    <link href='https://css.gg/pin.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Amjad Mohammed</title>
+    <link id="pagestyle" href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="particles-js">
+                <div id="intro">
+                    <h1>Hi,</h1>
+                    <h1>I'm <span class="name">Amjad</span>,</h1>
+                    <h1>Web Developer.</h1>
+                </div>
+                <div class="arrow bounce">
+                    <a href="#navbar" class="smooth-scroll"><i class="arrowz down"></i></a>
+                </div>
+        </div>
+    </header>
+    <div id="navbar">
+        <div id="nav-wrapper">
+            <a href="#about-me" id="about-link" class="smooth-scroll">About</a>
+            <a href="#skills" id="skills-link" class="smooth-scroll">Skills</a>
+            <a href="#projects" id="projects-link" class="smooth-scroll">Projects</a>
+            <a href="#experience" id="experience-link" class="smooth-scroll">Experience</a>
+            <a href="#education" id="education-link" class="smooth-scroll">Education</a>
+        <ul>
+            <li>
+              <input type="checkbox" name="power" id="power" checked onclick="swap()"> 
+              <label id="switch-label" for="power"><span class="on">Dark</span> <span class="off">Light</span></label>
+            </li>
+        </ul> 
+    </div>
+      </div>
+    <main id="main">  
+
+        <div id="about-me">
+            <h1>About me</h1>
+            <img src="images/amjad.jpg" alt="portfolio photo">
+            <div class="links">
+               <a href="Amjad-Resume.pdf" download target="_blank"><button id="resume"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M12 21l-8-9h6v-12h4v12h6l-8 9zm9-1v2h-18v-2h-2v4h22v-4h-2z"/></svg> Resume</button></a> 
+               <a href="https://www.linkedin.com/in/amjad-mohammed-92606739/" target="_blank" ><button id="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>LinkedIn</button></a>
+               <a href="mailto:amjalice@gmail.com"><button id="contact-btn" ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>Email Me</button></a>
+            </div>
+
+            <div class="about-container">
+                <p>In some jobs, 10 minutes could feel like an hour. In coding, an hour feels like 10 minutes – that’s when I realized where my passion truly lies in.</p> <br>
+                <p>I’m Amjad and I love designing and coding simple, elegant and user-focused webpages – great beauty is found in the most simple things.</p> <br> 
+                <p>Currently my primary area of interest is front-end development. As I continue my journey of unlimited learning, I’d like to become a full-stack developer and more!</p> <br>
+                <p>Well-organized person, optimistic, problem solver, with obsessive high attention to detail and great interpersonal skills – I enjoy interacting with others and bringing them joy. Great love for nature, outdoor walks, traveling, food and soccer.</p>
+            </div>
+        </div>
+
+        <div id="skills-wrapper">
+            <div id="skills">
+                <h1>Skills</h1>
+                <div id="icon">
+                    <i class="gg-browser"></i>
+                <i class="gg-code-slash"></i>
+                </div>
+                <div id="skill-list">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">React</span>
+                    <span class="skill">PHP</span>
+                    <span class="skill">C++</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">REST</span>
+                    <span class="skill">Websockets</span>
+                </div>
+            </div>
+        </div>
+  
+        <div id="projects">
+            <h1 id="proj">Projects</h1>
+            <div class="project-container">
+                <div class="flex-item one">
+                    <h1 class="header-screen-small">Village Pita Bakery</h1>
+                    <a href="https://villagepitabakery.web.app/" target="_blank" class="website"><img src="images/villagesc2.png" alt=" project web page sceenshot" title="visit website" class="portfolio-site" id="site"></a> 
+                    <div class="proj-links-container">
+                        <a href="https://villagepitabakery.web.app/" target="_blank" ><button class="proj-link">Visit Website</button></a>
+                        <a href="https://villagepitabakery.web.app/" target="_blank" ><button class="proj-link">View Code</button></a>
+                   </div>
+                </div>
+                <div class="flex-item two">
+                    <h1 class="header-screen-large">Village Pita Bakery</h1>
+                    <p>A demo web-page built for a local bakery. The design is both responsive and user-focused with a touch-slide capable slideshow for mobile devices.</p>
+                    <div class="proj-skills-flex">
+                        <div class="proj-skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">JavaScript</span>
+                            <span class="skill">jQuery</span>
+                            <span class="skill">Swiper.JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container even" >
+                <div class="flex-item one">
+                    <h1 class="header-screen-small">Portfolio Website</h1>
+                    <img src="images/portfoliosc.png" alt=" project web page sceenshot" id="portfolio-img">
+                    <div class="proj-links-container">
+                        <a href="https://villagepitabakery.web.app/" target="_blank"><button class="proj-link">View Code</button></a>
+                    </div>
+                </div>
+                <div class = "flex-item two">
+                    <h1 class="header-screen-large">Portfolio Website</h1>
+                    <p>My personal porfolio showcasing my skills, projects, and experience. </p>
+                    <div class="proj-skills-flex">
+                        <div class="proj-skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">JavaScript</span>
+                            <span class="skill">jQuery</span>
+                            <span class="skill">Particles.JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="experience">
+            <h1>Experience</h1>
+            <div class="experience-container">
+                <div class="pin-container">
+                    <span class="emp-duration">Oct. 2017 - May 2018 <br> Calgary, Alberta</span>
+                    <i class="gg-pin"></i>
+                    <div class="vl"></div>
+                </div>
+                <div class="work-container">
+                    <h2>General Dynamics</h2>
+                    <h3>Jr. Software Engineer</h3>
+                    <p>Worked in a fast-paced agile environment on a project for the British Ministry of Defense.</p>
+                    <p>Part of a small team developing  a message delivery service and RESTful API leveraged by other teams/services part of a large scale tactical communication system.</p>
+                    <p>Responsibilities included coding and debugging of capabilities and developing unit tests.</p>
+                </div>
+            </div>
+            <div class="experience-container">
+                <div class="pin-container">
+                    <span class="emp-duration">Sept. 2016 - Oct. 2017 <br> Calgary, Alberta</span>
+                    <i class="gg-pin"></i>
+                    <div class="vl"></div>
+                </div>
+                <div class="work-container even">
+                    <h2>General Dynamics</h2>
+                    <h3>Jr. System Engineer</h3>
+                    <p>Part of a new business unit for the company at the time.</p>
+                    <p>Worked on preparing proposals for potential customers and determining requirements for subcontractors.</p>
+                    <p>Developing and testing our public safety solutions and capabilities.</p>
+                </div>
+            </div>
+            <div class="experience-container">
+                <div class="pin-container">
+                    <span class="emp-duration">May - Aug. 2011/12/13 <br> Fort McMurray, Alberta</span>
+                    <i class="gg-pin"></i>
+                    <div class="vl"></div>
+
+                </div>
+                <div class="work-container">
+                    <h2>Canadian Natural Resources Limited</h2>
+                    <h3>IT Analyst - Summer Student Position</h3>
+                    <p>Technical IT support (software and hardware) to employees across an oil & gas site.</p>
+                    <p>Responsibilities included completing IT tickets of various user raised issues in a timely fashion, setting up hardware and network connections, and inventory management.</p>
+                    <p>I enjoyed meeting many employees from different backgrounds and teams and my team liked me enough to bring me back twice.</p>
+                </div>
+            </div>            
+        </div>
+
+        <div id="education">
+            <div class="education-wrapper">
+                <h1>Education</h1>
+                <div class="education-container">
+                    <h2>Bachelor of Communications Engineering</h2>
+                    <h3>Carleton University, Ottawa, Canada</h3>
+                    <h4>Completed 2016</h4>
+                </div>
+            </div>
+            <footer>
+                <div id="flex-footer">
+                    <h5>Amjad Mohammed <span class="copyright"> © </span> 2021 </h5>
+                    <!-- Made with <span class="heart"> ❤ </span>  -->
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="mainjs.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
